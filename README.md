@@ -5,7 +5,7 @@
 ## What's Argon?
 Argon is an inert gas that is known for its stability and unreactivity under normal conditions. Similarly, this software is designed to provide a stable and reliable platform for software developers and power users to get started using their Mac's as quickly and reliably as possible - without leaving a trace. 
 
-![](https://github.com/rockenman1234/Argon/blob/main/Screenshots/main1.png?raw=true)
+![](https://github.com/rockenman1234/Argon2/blob/main/img/Main.png?raw=true)
 ***
 
 ## How Does It Work?
@@ -20,13 +20,13 @@ Head over to the releases tab, and download the MacOS package (.zip) file. Or cl
 <a href="https://github.com/rockenman1234/Argon2/releases/download/0.2.0/Argon2.zip" title="Download Argon">Latest Release: 0.2.0</a>
 
 #### Step 1). Unzip the file:
-![](https://raw.githubusercontent.com/rockenman1234/Argon/main/Screenshots/install1.png)
+![](https://github.com/rockenman1234/Argon2/blob/main/img/Unzip.png?raw=true)
 
 #### Step 2). Open it:
-![](https://raw.githubusercontent.com/rockenman1234/Argon/main/Screenshots/install2.png)
+![](https://github.com/rockenman1234/Argon2/blob/main/img/run.png?raw=true)
 
 #### Step 2b). If You get an error, just ignore it and copy the command below:
-![](https://raw.githubusercontent.com/rockenman1234/Argon/main/Screenshots/install2.png)
+![](https://github.com/rockenman1234/Argon2/blob/main/img/error.png?raw=true)
 
 ```
 xattr -cr "$HOME/Downloads/Argon2.app/"
@@ -34,7 +34,7 @@ xattr -cr "$HOME/Downloads/Argon2.app/"
 This is just Apple attempting to quarentine files downloaded from the internet, in order to let Argon run you'll need to disable this functionality first.
 
 #### Step 3). Rock On!🤘🎸
-![](https://raw.githubusercontent.com/rockenman1234/Argon/main/Screenshots/install2.png)
+![](https://github.com/rockenman1234/Argon2/blob/main/img/Main.png?raw=true)
 
 
 
