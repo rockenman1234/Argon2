@@ -15,9 +15,9 @@ The App's installation process is divided into several steps, each of which corr
 
 If you are a macOS user who wants to set up a development environment quickly and easily, or if you are a developer who wants to customize the installation process to your needs, Argon may be a useful tool for you. Give it a try and let us know your feedback!
 
-## Installation Procedure - Easy
+## Installation Procedure
 Head over to the releases tab, and download the MacOS package (.zip) file. Or click here for a direct download: 
-<a href="https://github.com/rockenman1234/Argon/releases/download/v0.0.1/Argon-1.0.pkg" title="Download Argon">Latest Release: 0.0.1</a>
+<a href="https://github.com/rockenman1234/Argon2/releases/download/0.2.0/Argon2.zip" title="Download Argon">Latest Release: 0.2.0</a>
 
 #### Step 1). Unzip the file:
 ![](https://raw.githubusercontent.com/rockenman1234/Argon/main/Screenshots/install1.png)
