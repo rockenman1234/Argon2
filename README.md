@@ -16,62 +16,54 @@ The App's installation process is divided into several steps, each of which corr
 If you are a macOS user who wants to set up a development environment quickly and easily, or if you are a developer who wants to customize the installation process to your needs, Argon may be a useful tool for you. Give it a try and let us know your feedback!
 
 ## Installation Procedure - Easy
-Head over to the releases tab, and download the MacOS package (.pkg) installer. Or click here for a direct download: 
+Head over to the releases tab, and download the MacOS package (.zip) file. Or click here for a direct download: 
 <a href="https://github.com/rockenman1234/Argon/releases/download/v0.0.1/Argon-1.0.pkg" title="Download Argon">Latest Release: 0.0.1</a>
 
-#### Step 1). Open the installer package (.pkg) file:
+#### Step 1). Unzip the file:
 ![](https://raw.githubusercontent.com/rockenman1234/Argon/main/Screenshots/install1.png)
 
-#### Step 2). Select your desired installation location:
+#### Step 2). Open it:
 ![](https://raw.githubusercontent.com/rockenman1234/Argon/main/Screenshots/install2.png)
 
-#### Step 3). Enter your TouchID or Password to confirm the install:
-![](https://raw.githubusercontent.com/rockenman1234/Argon/main/Screenshots/install3.png)
+#### Step 2b). If You get an error, just ignore it and copy the command below:
+![](https://raw.githubusercontent.com/rockenman1234/Argon/main/Screenshots/install2.png)
 
-#### Step 4). Close the Installer, and Run Argon for your Spotlight Search:
-![](https://raw.githubusercontent.com/rockenman1234/Argon/main/Screenshots/install4.png)
+```
+xattr -cr "$HOME/Downloads/Argon2.app/"
+```
+This is just Apple attempting to quarentine files downloaded from the internet, in order to let Argon run you'll need to disable this functionality first.
 
-#### Step 5). Run Argon for your Spotlight Search:
-![](https://github.com/rockenman1234/Argon/blob/main/Screenshots/main1.png?raw=true)
+#### Step 3). Rock On!🤘🎸
+![](https://raw.githubusercontent.com/rockenman1234/Argon/main/Screenshots/install2.png)
 
-#### Step 6). Once you've allowed Argon to install your desired applications, close Argon and delete the Argon.app file from your System's Applications Folder! 
 
-Congratulations! 🎉 
-You're done with Argon!
+
+#### Congrats! 🎉 You're all done and ready to rock and roll with a dev friendly Mac!
+
+Once you're done, you can either drag and drop the Argon2.app file into your applications folder - or delete it from your system! Because just like Argon - it's gone without a trace!
 
 *** 
-Alternatively, you may choose to run the precompiled Java executable file (.jar), which is also listed in the releases tab. To run it, follow these instructions, and have the latest JavaJDK installed on your Mac:
+Alternatively, you may choose to compile and run the Go binary yourself from source. To do so, just download the source code and run the following commands! Make sure you've got the latest version of Go installed before you start!
 
 ```
-cd ~/Downloads
+cd "$HOME/Downloads/"
 
-java -jar Argon.jar
+unzip Argon2-0.2.0.zip
+
+cd Argon2-0.2.0
+
+go mod init Argon2
+
+go get fyne.io/fyne/v2@latest
+
+go install fyne.io/fyne/v2/cmd/fyne@latest
+
+fyne package
+
+open Argon2.app
 ```
+If you get any errors with the code above, please check out the [Fyne setup tool](https://geoffrey-artefacts.fynelabs.com/github/andydotxyz/fyne-io/setup/latest/) and the [Fyne troubleshooting guide](https://docs.fyne.io/faq/troubleshoot) for more help on what went wrong!
 
-
-## Installation Procedure - Advanced (Not Recommended)
-
-First, make sure you have the latest JavaJDK installed, along with git.
-
-Step 1). Generate the Java Executable (.jar) file:
-```
-git clone https://github.com/rockenman1234/Argon.git
-
-cd ~/Argon/src
-
-javac *.java
-
-jar cvfm Argon.jar manifest.txt *.class
-
-java -jar Argon.jar
-```
-
-Step 2). OPTIONAL - If you'd like to compile to your own installer package (.pkg) file, follow this steps:
-```
-jpackage --name Argon --input . --main-jar Argon.jar \
-                                                 --resource-dir ~/Argon/package/macos --type pkg
-```
- This should create an installer package (.pkg) file inside of the "src" directory. 
  
  ***
 
