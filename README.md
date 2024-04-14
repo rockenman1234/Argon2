@@ -11,7 +11,7 @@ Argon is an inert gas that is known for its stability and unreactivity under nor
 ## How Does It Work?
 Argon is a MacOS app that automates the installation of various software and tools for developers and power users. The script uses Homebrew, a popular package manager for MacOS, and allows users to install developer tools, high-level and low-level programming languages, ease-of-life software, web browsers, and multimedia software all at the click of a button!
 
-The App's installation process is divided into several steps, each of which corresponds to a button in the graphical user interface (GUI) built ontop of Java's Swing GUI framework. Users can click each of the buttons in the specified order to run the corresponding commands in the Terminal. The script also provides tooltips for each button to explain what software or tool will be installed.
+The App's installation process is divided into several steps, each of which corresponds to a button in the graphical user interface (GUI) built ontop of Go's Fyne GUI framework. Users can click each of the buttons in the specified order to run the corresponding commands in the Terminal. The script also provides a cleaner to help cut down on junk files!
 
 If you are a macOS user who wants to set up a development environment quickly and easily, or if you are a developer who wants to customize the installation process to your needs, Argon may be a useful tool for you. Give it a try and let us know your feedback!
 
@@ -25,13 +25,13 @@ Head over to the releases tab, and download the MacOS package (.zip) file. Or cl
 #### Step 2). Open it:
 ![](https://github.com/rockenman1234/Argon2/blob/main/img/run.png?raw=true)
 
-#### Step 2b). If You get an error, just ignore it and copy the command below:
+#### Step 2b). If You get an error, just ignore it and paste the command below into the Terminal:
 ![](https://github.com/rockenman1234/Argon2/blob/main/img/error.png?raw=true)
 
 ```
 xattr -cr "$HOME/Downloads/Argon2.app/"
 ```
-This is just Apple attempting to quarentine files downloaded from the internet, in order to let Argon run you'll need to disable this functionality first.
+This is just Apple attempting to quarentine files downloaded from the internet, in order to let Argon run you'll need to disable this functionality on this file. 
 
 #### Step 3). Rock On!🤘🎸
 ![](https://github.com/rockenman1234/Argon2/blob/main/img/Main.png?raw=true)
