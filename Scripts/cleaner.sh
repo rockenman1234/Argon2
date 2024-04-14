@@ -48,4 +48,4 @@ for appDir in ~/Library/Containers/*; do
     fi
 done
 echo "Done cleaning application caches"
-echo "All done!\nYou should restart your Mac as soon as possible!"
+echo "All done! You should restart your Mac as soon as possible!"
