@@ -1,8 +1,11 @@
 <div align="center">
-![](https://github.com/rockenman1234/Argon2/blob/main/img/icon-128x128.png?raw=true) Welcome to a faster Mac! 
-</div>
-==========
+ 
+![](https://github.com/rockenman1234/Argon2/blob/main/img/icon-128x128.png?raw=true) 
 
+
+## Welcome to a faster Mac! 
+
+</div>
 
 ## What's Argon?
 Argon is an inert gas that is known for its stability and unreactivity under normal conditions. Similarly, this software is designed to provide a stable and reliable platform for software developers and power users to get started using their Mac's as quickly and reliably as possible - without leaving a trace. 
