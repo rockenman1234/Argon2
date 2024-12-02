@@ -1,4 +1,6 @@
+<div align="center">
 ![](https://github.com/rockenman1234/Argon2/blob/main/img/icon-128x128.png?raw=true) Welcome to a faster Mac! 
+</div>
 ==========
 
 
